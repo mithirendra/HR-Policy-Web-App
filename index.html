@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR Policy Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- Page header -->
+    <h1>HR POLICY LIBRARY</h1>
+    <p class="subtitle">A searchable reference for HR policies across the employee lifecycle</p>
+
+    <!-- Search and filter controls -->
+    <div class="controls">
+        <input type="text" id="search" placeholder="Search policies..." />
+        <div class="filters" id="filters"></div>
+    </div>
+
+    <!-- Policy cards go here -->
+    <div class="grid" id="grid"></div>
+    <p class="empty" id="empty">No policies found.</p>
+
+    <script src="app.js"></script>
+</body>
+</html>

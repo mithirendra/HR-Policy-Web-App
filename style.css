@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background: #fffbf8;
+    color: #111;
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.subtitle {
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 1.5rem;
+}
+
+input[type="text"] {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.filter-btn {
+    padding: 5px 12px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: white;
+    cursor: pointer;
+    color: #555;
+    transition: all 0.15s;
+}
+
+.filter-btn:hover {
+    background: #f0f0f0;
+    color: #111;
+    border-color: #999;
+}
+
+.filter-btn.active {
+    background: orange;
+    color:#111;
+    border-color: #111;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 12px;
+}
+
+.empty {
+    display: none;
+    text-align: center;
+    padding: 2rem;
+    color: #999;
+}
+
+.card {
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.tag {
+    font-size: 10px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 4px;
+    background: #eee;
+    color: #333;
+}
+
+.card-title {
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.card-desc {
+    font-size: 12px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 6px;
+}
+
+.card-points {
+    font-size: 12px;
+    color: #444;
+    line-height: 1.8;
+    padding-left: 1.2rem;
+    margin-bottom: 8px;
+}
+
+.card-points li {
+    margin-bottom: 2px;
+}
+
+.policy-btn {
+    align-self: flex-start;
+    padding: 6px 14px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    background:  #ffece1;
+    color: #111;
+    border-color: #ffece1;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+.policy-btn:hover {
+    background: orange;
+    border-color: #ffece1;
+    color: #111;
+}
+
+.points-label {
+    font-size: 11px;
+    font-weight: 600;
+    color: #1E3A5F;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 4px;
+}
+
+.tag-recruitment { background: #E6F1FB; color: #0C447C; }
+.tag-youngtalent { background: #EAF3DE; color: #27500A; }
+.tag-onboarding { background: #E1F5EE; color: #085041; }
+.tag-ld { background: #EEEDFE; color: #3C3489; }
+.tag-performance { background: #edd4e0; color: #633806; }
+.tag-compensation { background: #cbe0cc; color: #412402; }
+.tag-health { background: #C0DD97; color: #173404; }
+.tag-relations { background: #FBEAF0; color: #72243E; }
+.tag-offboarding { background: #CECBF6; color: #26215C; }
+.tag-disciplinary { background: #eaeaa2; color: #712B13; }
