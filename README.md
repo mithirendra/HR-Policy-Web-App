@@ -9,5 +9,5 @@ A searchable and filterable HR policy reference tool for HR professionals.
 ## Built With
 HTML, CSS, JavaScript — no frameworks, no server, no database.
 
-## Author
-Built by Mithirendra M
+## Built By
+&copy; 2026 Mithirendra Maniam
