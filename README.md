@@ -1,5 +1,5 @@
-# HR Policy Library (part of HR Digital Transformation Toolkit)
-A searchable and filterable HR policy reference tool for HR professionals.
+# HR Policy Library
+A searchable and filterable HR policy reference tool for HR professionals. This is part of HR Digital Transformation Toolkit.
 
 ## Features
 - Search by keyword
